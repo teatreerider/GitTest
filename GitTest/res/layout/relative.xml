@@ -6,11 +6,11 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@android:drawable/ic_input_add" />
+        android:src="@android:drawable/ic_menu_gallery" />
 
     <TextView
         android:id="@+id/textView1"
@@ -28,7 +28,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:text="010 000 0000" 
-        android:textSize="25sp"/>
+        android:textSize="15sp"
+        android:textColor="#ff0000ff"/>
 
     <TextView
         android:id="@+id/textView3"
